@@ -29,8 +29,13 @@
     </platform>
     
     <icon src="img/justlogo.png" />
-    <splash src="img/bb_splash.jpg"/>
+    
+    <!-- FOR SPLASH SCREEN 3secs -->
 
+    <preference name = "SplashScreen" value = "screen" />
+    <preference name = "SplashScreenDelay" value = "3000" />
+    <preference name = "SplashMaintainAspectRatio" value = "true" />
+    <splash src="img/bb_splash.jpg"/>
 
 
 </widget>
