@@ -1,5 +1,4 @@
-function getCost()
-{
+function getCost(){
     alert("Getting Cost!");
     var locs = document.querySelectorAll(".leaflet-routing-alt");
     var distTime=locs[0].childNodes[1].innerHTML;
